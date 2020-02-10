@@ -214,7 +214,7 @@ class Automator:
     results: dict = {}
     dummies: dict = {
         'players': [
-            Player(1, 'Morris', 0, lambda x: x <= 12),
+            Player(1, 'Lars', 0, lambda x: x <= 12),
             Player(2, 'Menno', 0, lambda x: x <= 33),
             Player(3, 'Wouter', 0, lambda x: x <= 15)
             # if you set the last parameter (called algorithm) to None, you can play against bots
